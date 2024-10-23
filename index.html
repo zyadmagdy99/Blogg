@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="">
+            <div class="bg-[#FF6403] text-white">
+                <nav class="flex justify-between px-3 py-2 md:px-20 md:py-4">
+                    <div class="flex items-center gap-1">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <p class="text-lg">JustBlogs</p>
+                    </div>
+                    <div class=" gap-4 hidden md:flex">
+                        <p class="text-[#ffffffea] hover:cursor-pointer">Solution</p>
+                        <p class="text-[#ffffffea] hover:cursor-pointer">Product</p>
+                        <p class="text-[#ffffffea] hover:cursor-pointer">Review</p>
+                        <p class="text-[#ffffffea] hover:cursor-pointer">Resources</p>
+                        <p class="text-[#ffffffea] hover:cursor-pointer">About us</p>
+                    </div>
+                    <div class="flex items-center px-2 py-1 bg-white text-black gap-2 rounded-3xl">
+                        <i class="fa-solid fa-circle text-orange-500 text-[8px]"></i>
+                        <p class="font-semibold">Get Started</p>
+                    </div>
+                </nav>
+                <div class="afterNav justify-center  flex-col gap-10 md:flex-row  flex md:justify-between items-center md:items-baseline md:px-16 mt-8">
+                    <div class="flex flex-col lg:translate-y-[70px] ps-4 items-center md:items-start justify-between gap-8 md:gap-12 mt-5 md:w-2/3">
+                        <h1  class="text-4xl md:leading-[50px] text-center md:text-start md:p-0 p-2 lg:text-[47px] md:w-2/3">Stay Informed With the Latest Updates <span style="font-family: 'Dosis', sans-serif;"> and Blog Highlight</span></h1>
+                        <p class="text-sm md:w-2/3 text-center md:text-start md:p-0 p-2">Stay Informed With the Latest Updates and Blog Highlight. Lorem ipsum dolor sit.
+                             Lorem ipsum dolor sit amet.</p>
+                        <div class="flex items-center gap-5">
+                            <div class="flex gap-3 bg-white text-black p-1 rounded-2xl">
+                                <p class="font-semibold ps-1">Download Blogs</p>
+                                <div class="size-7 hover:cursor-pointer bg-[#D14C00] flex justify-center text-sm items-center text-white rounded-full">
+                                    <i class="fa-solid fa-download"></i>
+                                </div>
+                            </div>
+                            <p class="text-sm hover:cursor-pointer">Try Demo</p> 
+                        </div>
+                        <div class="flex text-sm flex-col md:gap-4 gap-2">
+                            <div class="flex gap-2  items-center">
+                                <div class="size-5 text-xs rounded-full flex justify-center items-center border border-white p-1"><i class="fa-solid fa-check"></i></div>
+                                <p>eliminate repetitve tasks with AI</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                <div class="size-5 text-xs rounded-full flex justify-center items-center border border-white p-1"><i class="fa-solid fa-check"></i></div>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                <div class="size-5 text-xs rounded-full flex justify-center items-center border border-white p-1"><i class="fa-solid fa-check"></i></div>
+                                <p>eliminate  tasks with AI</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:w-1/3 justify-center items-center gap-5 md:translate-x-[-50px]">
+                        <div class="flex text-sm justify-center items-center  gap-1 px-2 md:gap-2">
+                            <p class="p-2 rounded-full size-8 flex justify-center items-center hover:cursor-pointer text-2xl bg-[#fff5]">+</p>
+                            <p class="px-1 rounded-2xl w-18 h-8 flex justify-center items-center bg-[#fff5] hover:cursor-pointer">Following</p>
+                            <p class=" rounded-2xl w-16 h-8 flex justify-center items-center bg-[#fff5] hover:cursor-pointer">For You</p>
+                            <p class=" rounded-2xl md:w-16 h-8 flex justify-center items-center bg-[#fff5] hover:cursor-pointer">Music</p>
+                            <p class=" rounded-2xl w-16 h-8 flex justify-center items-center bg-[#fff5] hover:cursor-pointer">Lifestyle</p>
+                            <p class="px-2  rounded-2xl md:w-16 h-8 flex justify-center items-center bg-[#fff5] hover:cursor-pointer">Art</p>
+                        </div>
+                        <div class="w-[90%] flex h-[23rem] md:min-w-[22rem] justify-center ">
+                            <img class="w-full border-4 border-white rounded-lg" src="./pexels-vlada-karpovich-4050430.jpg" alt="">
+                        </div>
+                        <div class="w-[80%] translate-y-[-80px] md:min-w-[19rem]">
+                            <img class="w-full h-[7rem] rounded-xl" src="./negativecustomerreviewaboutacompanyspoorcustomerservice.png" alt="">
+                        </div>
+                        <div class="w-[60%] translate-y-[-95px] md:min-w-[17rem]">
+                            <img class="w-full h-[5rem] rounded-xl" src="./لقطة الشاشة 2024-10-19 190937.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <p class="text-xs text-center h-24 bg-gradient-to-b from-transparent to-white flex text-black justify-center items-center font-semibold ">Join 4,000+ companies aleardy growing</p>
+            </div>
+            <div class="p-2 ">
+                <div class="flex md:flex-nowrap flex-wrap justify-center items-center">
+                    <div class="text-[#5E5E5E] flex justify-center mt-8 w-1/2 text-2xl font-bold drop-shadow-lg">conibase</div>
+                    <div class="text-[#5E5E5E] flex items-baseline mt-8 gap-1 justify-center w-1/2 text-2xl font-bold drop-shadow-lg">
+                        <i class="fa-brands fa-spotify"></i>
+                        <p>spotify</p>
+                    </div>
+                    <div class="text-[#5E5E5E] flex justify-center w-1/2 mt-8 items-baseline gap-1 text-2xl font-bold drop-shadow-lg">
+                        <i class="fa-brands fa-slack"></i>
+                        <p>Slack</p>
+                    </div>
+                    <div class="text-[#5E5E5E] items-baseline gap-1 flex mt-8 justify-center w-1/2 text-2xl font-bold drop-shadow-lg">
+                        <i class="fa-brands fa-dropbox"></i>
+                        <p>dropbox</p>
+                    </div>
+                    <div class="text-[#5E5E5E] items-baseline gap-1 flex mt-8 justify-center w-1/2 text-2xl font-bold drop-shadow-lg">
+                        <i class="fa-brands fa-webflow"></i>
+                        <p>webflow</p>
+                    </div>
+                    <div class="text-[#5E5E5E] flex mt-8 justify-center w-1/2 text-2xl font-bold drop-shadow-lg">zoom</div>
+                </div>
+                <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center md:px-20 gap-10 p-2">
+                    <div class="left lg:w-2/5 flex flex-col items-center text-center md:text-start md:items-start gap-5">
+                        <div class="shadow-inner px-2 py-1 bg-[#F9DDCF] flex w-[85px] rounded-md text-xs font-bold">OUR VALUE</div>
+                        <h1 class="text-2xl font-semibold">Creative Blogging Tools for Enhanced Productivity</h1>
+                        <p class="text-xs font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing. Tempore harum dolorem voluptatem repellat voluptatibus!</p>
+                        <div class="flex justify-between items-center hover:cursor-pointer w-2/5 max-w-[140px] border-2 rounded-2xl ps-1 text-sm font-semibold border-[#55555536]">
+                            <p class="px-2 text-[10px] font-bold">Learn more</p>
+                            <div class="bg-orange-700 text-white size-5 flex justify-center text-[10px] items-center rounded-2xl px-1"><i class="fa-solid fa-share"></i></div>
+                        </div>
+                        <div class="flex items-center gap-4 mt-12 w-[90%]">
+                            <div class="flex flex-col justify-center w-1/3 items-baseline"><p class="font-bold">400K+</p> <p class="font-semibold text-[10px]">User Active</p></div>
+                            <p>|</p>
+                            <div class="flex flex-col justify-center w-2/5 items-baseline"><p class="font-bold">10.4K+</p> <p class="font-semibold text-[10px]">Create in world</p></div>
+                            <p>|</p>
+                            <div class="flex flex-col justify-center w-1/3 items-baseline "><p class="font-bold">4.9</p> <p class="font-semibold text-[10px]">Average Rating</p></div>
+                        </div>
+                    </div>
+                    <div class="right flex flex-col gap-3 px-4 lg:w-2/5 mt-10">
+                            <div class="border border-[#55555538] rounded-lg flex flex-col gap-2 py-3 px-6 relative">
+                                <h1 class="text-sm font-bold">User-Centric Design</h1>
+                                <p class="text-xs font-semibold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iure.dolor sit amet consectetur adipisicing elit. Quos, iure</p>
+                                <div class="p-1 absolute top-2 left-[-17px] bg-orange-700 size-8 flex justify-center items-center text-white rounded-lg "><i class="fa-solid fa-pen-nib"></i></div>
+                            </div>
+                            <div class="border border-[#55555538] rounded-lg flex flex-col gap-2 py-3 px-6 relative">
+                                <h1 class="text-sm font-bold">Seamless Content Creation</h1>
+                                <p class="text-xs font-semibold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iure.dolor sit amet consectetur adipisicing elit. Quos, iure</p>
+                                <div class="p-1 absolute top-2 left-[-17px] bg-orange-700 size-8 flex justify-center items-center text-white rounded-lg "><i class="fa-regular fa-lightbulb"></i></div>
+                            </div>
+                            <div class="border border-[#55555538] rounded-lg flex flex-col gap-2 py-3 px-6 relative">
+                                <h1 class="text-sm font-bold">Collaborative Community Space</h1>
+                                <p class="text-xs font-semibold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iure.dolor sit amet consectetur adipisicing elit. Quos, iure</p>
+                                <div class="p-1 absolute top-2 left-[-17px] bg-orange-700 size-8 flex justify-center items-center text-white rounded-lg "><i class="fa-regular fa-user"></i></div>
+                            </div>
+                            <div class="border border-[#55555538] rounded-lg flex flex-col gap-2 py-3 px-6 relative">
+                                <h1 class="text-sm font-bold">Innovative Fearture Evolving</h1>
+                                <p class="text-xs font-semibold"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, iure.dolor sit amet consectetur adipisicing elit. Quos, iure</p>
+                                <div class="p-1 absolute top-2 left-[-17px] bg-orange-700 size-8 flex justify-center items-center text-white rounded-lg "><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+                <div class="bg-[#F4F4F4] p-2 mb-4 mt-6">
+                    <div class="features my-5 flex  flex-col gap-4 justify-center items-center">
+                    <div class="shadow-inner px-2 py-1 bg-[#F9DDCF] flex w-[100px] rounded-md text-xs font-bold">OUR FEATURE</div>
+                    <h1 class="text-xl md:text-3xl font-semibold">Explore Key Features of Our App</h1>
+                    <p class="text-xs font-semibold text-center w-[250px]">Lorem ipsum dolor adipisicing elit. Inventore officiis perferendis, similique fugit at quis.</p>
+                    </div>
+                 <div class="all mb-10 flex flex-col gap-3 md:flex-row md:justify-center md:items-center md:flex-wrap">
+                    <div class="single rounded-xl bg-white mx-4  p-2 md:w-2/5 flex flex-col justify-center items-center">
+                        <div class="h-[20rem] flex justify-center items-center"><img src="up.jpg" alt=""></div>
+                        <hr>
+                        <div class="p-2">
+                            <h1 class="text-xl font-bold">Audio On-The-Go</h1>
+                            <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, id!</p>
+                        </div>
+                    </div>
+                    <div class="single rounded-xl bg-white p-2 mx-4 md:w-2/5 flex flex-col justify-center items-center">
+                        <div class="p-9 h-[20rem] flex justify-center items-center"><img src="mceclip4.png" alt=""></div>
+                        <hr>
+                        <div class="p-2">
+                            <h1 class="text-xl font-bold">Quick Bookmarkin Made Easy</h1>
+                            <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, id!</p>
+                        </div>
+                    </div>
+                    <div class="single rounded-xl flex flex-col justify-center items-center bg-white p-2 mx-4 md:w-2/5">
+                        <div class="p-9 h-[20rem] flex justify-center items-center"><img src="kkk.png" alt=""></div>
+                        <hr>
+                        <div class="p-2">
+                            <h1 class="text-xl font-bold">Build Your Team</h1>
+                            <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, id!</p>
+                        </div>
+                    </div>
+                    <div class="single rounded-xl flex flex-col justify-center items-center bg-white p-2 mx-4 md:w-2/5">
+                        <div  class="h-[20rem] max-w-[20rem] flex justify-center items-center"><img src="image-2_orig.jpg" alt=""></div>
+                        <hr>
+                        <div class="p-2">
+                            <h1 class="text-xl font-bold">Powerful App Extensions</h1>
+                            <p class="text-sm font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, id!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features mt-10 md:px-10 md:flex md:justify-between md:items-center">
+                <div class="p-6 md:w-2/5 flex flex-col justify-center items-center text-center md:text-start md:items-start gap-8">
+                    <div class=" shadow-inner px-2 py-1 bg-[#F9DDCF] flex w-[85px] justify-center rounded-md text-xs font-bold">FEATURE</div>
+                    <h1  class="text-xl font-semibold md:text-3xl px-2">Simple and Efficient Blog Organization</h1>
+                    <p class="text-xs font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corporis ducimus non, error minima nobis voluptatum rem illum similique voluptates.</p>
+                    <div class="flex justify-between items-center hover:cursor-pointer  w-2/5 max-w-[140px] border-2 rounded-2xl ps-1 text-sm font-semibold border-[#55555536]">
+                        <p class="px-2 text-[10px] font-bold">Learn more</p>
+                        <div class="bg-orange-700 text-white size-5 flex justify-center text-[10px] items-center rounded-2xl px-1"><i class="fa-solid fa-share"></i></div>
+                    </div>
+                </div>
+                <div class="p-6 md:w-1/2 md:max-w-[40rem]">
+                    <div class="">
+                        <img class="rounded-xl" src="./frontline-training-app-1024x576.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="questions bg-[#F4F4F4] pt-8  flex flex-col justify-center p-3 mt-5 items-center pb-10 md:px-[10rem]">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <div class=" shadow-inner px-2 py-1 bg-[#F9DDCF] flex w-[45px] justify-center rounded-md text-xs font-bold">FAQ</div>
+                    <h1  class="text-xl font-semibold">(FAQ) Questions and Answers</h1>
+                    <p class="text-xs font-semibold text-center p-3 max-w-[28rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corporis ducimus non, error minima nobis voluptatum rem illum similique voluptates.</p>
+                </div>
+                <div class="flex w-[90%] mt-4 flex-col gap-3">
+                    <div class="flex flex-col bg-white p-2 gap-3 rounded-xl">
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">How to Download the app?</h1>
+                            <i class="dow fa-solid fa-chevron-down hidden"></i>
+                            <i class="upp fa-solid fa-chevron-up"></i>
+                        </div>
+                        <p class="text-sm ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+                    </div>
+                    <div class="flex flex-col bg-white p-2 gap-3 rounded-xl">
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">How to Reset your password?</h1>
+                            <i class="dow fa-solid fa-chevron-down"></i>
+                            <i class="upp fa-solid fa-chevron-up hidden"></i>
+
+                        </div>
+                        <p class="text-sm hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+                    </div>
+                    <div class="flex flex-col bg-white p-2 gap-3 rounded-xl">
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">How to Submit a Blog post?</h1>
+                            <i class="upp fa-solid fa-chevron-up hidden"></i>
+
+                            <i class="dow fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="text-sm hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+                    </div>
+                    <div class="flex flex-col bg-white p-2 gap-3 rounded-xl">
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">How to Manage a notification?</h1>
+                            <i class="upp fa-solid fa-chevron-up hidden"></i>
+
+                            <i class="dow fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="text-sm hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+                    </div>
+                    <div class="flex flex-col bg-white p-2 gap-3 rounded-xl">
+                        <div class="flex justify-between">
+                            <h1 class="font-semibold">How to Contract Support?</h1>
+                            <i class="upp fa-solid fa-chevron-up hidden"></i>
+
+                            <i class="dow fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="text-sm hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="test mt-6 p-2 flex flex-col py-10 gap-6">
+                <div class="flex flex-col gap-8 justify-center  text-center md:text-start md:flex-row md:justify-between ">
+                    <div class="flex flex-col items-center md:items-start md:w-2/5 justify-center md:translate-x-[80px] gap-4">
+                        <div class="shadow-inner px-2 py-1 bg-[#F9DDCF] flex w-[90px] rounded-md text-xs font-bold">Testimonials</div>
+                        <h1 class="text-2xl font-semibold">User Experiences That Speak Volumes</h1>
+                        <p class="text-xs font-semibold text-[#000000c4] p-2 md:p-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, error!</p>
+                        <div class="flex gap-2 mt-10">
+                            <div class="size-6 p-2 border-black rounded-full border flex justify-center text-xs items-center"><i class="upp fa-solid fa-chevron-up"></i></div>
+                            <div class="size-6 p-2 border-black rounded-full border flex justify-center text-xs items-center"><i class="dow fa-solid fa-chevron-down"></i></div>
+                        </div>
+                    </div>
+                    <div class="flex gap-2 items-center md:w-2/5 md:translate-x-[-80px]">
+                        <div class=" flex flex-col gap-1">
+                            <div class="h-[20px] w-[3px] bg-[#bebebe]"></div>
+                            <div class="h-[20px] w-[3px] bg-[#bebebe]"></div>
+                            <div class="h-[20px] w-[3px] bg-orange-500"></div>
+                            <div class="h-[20px] w-[3px] bg-[#bebebe]"></div>
+                            <div class="h-[20px] w-[3px] bg-[#bebebe]"></div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <div class="testemonial flex flex-col gap-3 border rounded-lg p-2 border-[#5555553f]">
+                                    <div class="flex gap-2">
+                                        <div class="text-white shadow-inner bg-orange-500 size-9 flex justify-center items-center py-2 px-3 text-xs rounded-lg"><i class="fa-solid fa-pen"></i></div>
+                                        <div>
+                                            <p class="text-sm font-bold">Fuzztoni 22</p>
+                                            <p class="text-xs font-semibold">fuzztino@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod cumque placeat consequuntur odit dolor magnam ea corrupti dolore commodi.</p>
+                            </div>
+                            <div class="testemonial relative flex flex-col gap-3 z-10 border rounded-lg p-2 border-[#5555553f]">
+                                    <div class="flex gap-2">
+                                        <div class="text-white shadow-inner bg-orange-500 size-9 flex justify-center items-center py-2 px-3 text-xs rounded-lg"><i class="fa-solid fa-pen"></i></div>
+                                        <div>
+                                            <p class="text-sm font-bold">Bob Ciew</p>
+                                            <p class="text-xs font-semibold">bob@gmail.com</p>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quod cumque placeat consequuntur odit dolor magnam ea corrupti dolore commodi.</p>
+                                    <div class=" absolute bottom-0 w-[90%] h-6 rounded-b-xl bg-[#86848423]  translate-x-4 translate-y-6"></div>
+                                    <div class=" absolute bottom-0 w-[96%] h-4 rounded-b-xl bg-[#55555523]   translate-y-4">  </div>
+                                    
+                                </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            <footer class="bg-black text-white p-1 m-3 rounded-lg mt-10">
+                <div class="flex flex-col rounded-lg py-6 justify-center items-center text-center gap-5 bg-white text-black m-3">
+                    <div class="p-1 px-2 text-orange-500 rounded-lg shadow-inner shadow-[#555555b2]"><i class="fa-solid fa-layer-group"></i></div>
+                    <h1 class="text-2xl font-semibold">Unleash Creativity ,Share Stories, and Build</h1>
+                    <p class="text-xs font-semibold max-w-[24rem] text-[#000000c4] p-2">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. dolor sit, amet consectetur adipisicing elit. A, enim.</p>
+                    <div class="flex justify-between items-center border-2 rounded-2xl ps-1 text-sm font-semibold border-[#55555536]">
+                        <p class="px-2 text-[10px]  font-bold">Download JBlogs</p>
+                        <div class="bg-orange-700 hover:cursor-pointer text-white size-5 flex justify-center text-[10px] items-center rounded-2xl px-1"><i class="fa-solid fa-download"></i></div>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="left p-2 flex flex-col md:ps-10 md:w-1/2 gap-6">
+                        <div class="flex text-xl items-center gap-3">
+                            <i class="fa-solid fa-layer-group"></i>
+                            <h2>JBlogs</h2>
+                        </div>
+                        <p class="text-xs text-[#ffffffc4] max-w-[22rem]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet. Aliquid, laboriosam.</p>
+                        <div class="flex gap-3">
+                            <div class="hover:bg-white hover:text-black  p-1 size-7 flex justify-center items-center rounded-full border"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="p-1 size-7 flex justify-center hover:bg-white hover:text-black items-center rounded-full border"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="p-1 size-7 flex justify-center items-center rounded-full border hover:bg-white hover:text-black"><i class="fa-brands fa-facebook"></i></div>
+                        </div>
+                    </div>
+                    <div class="right flex justify-between md:w-1/2 items-baseline p-2 w-full">
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <p>Pages</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Solution</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Products</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Review</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Abstraction</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">About us</p>
+                        </div>
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <p>Support</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">FAQs</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Suport Corner</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Security</p>
+                            
+                            
+                        </div>
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <p>More</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">District Manger</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Events</p>
+                            <p class="text-xs text-[#ffffffc4] hover:cursor-pointer">Terms & Conditions</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </footer>
+            
+            <script src="./js.js"></script>
+        </body>
+        </html>
